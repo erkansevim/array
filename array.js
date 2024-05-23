@@ -23,3 +23,21 @@ const obst=["apfel", "kiwi", "birne"]
 obst.pop()
 
 console.log(obst);
+
+//--- shift - delete first data
+
+console.log(obst.shift());
+
+//----push added data
+
+obst.push("orange");
+console.log(obst);
+
+//-- sort
+
+const numbers=[22,77,88,54,75,12,555,96,33,1,2,45,45]
+
+numbers.sort((a,b)=>a-b)
+
+console.log(numbers);
+
